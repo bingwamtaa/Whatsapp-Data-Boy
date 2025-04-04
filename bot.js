@@ -11,7 +11,7 @@ const fetch = require('node-fetch'); // Using node-fetch v2 for CommonJS
  * =============================
  */
 const ADMIN_NUMBER = process.env.ADMIN_NUMBER || '254740555065';
-let PAYMENT_INFO = '0759423842 (Tobias)'; // Default payment info; admin can update
+let PAYMENT_INFO = '8436554 (Bingwa Mtaani)'; // Default payment info; admin can update
 const PORT = 3000;
 
 // PayHero STK push credentials (admin can update via "set payhero" command)
