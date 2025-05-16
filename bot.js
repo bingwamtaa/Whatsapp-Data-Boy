@@ -10,7 +10,7 @@ const fetch = require('node-fetch'); // Using node-fetch v2 for CommonJS
  * CONFIGURATION & GLOBAL VARIABLES
  * =============================
  */
-const ADMIN_NUMBER = process.env.ADMIN_NUMBER || '254740555065';
+const ADMIN_NUMBER = process.env.ADMIN_NUMBER || '254110562739';
 let PAYMENT_INFO = '8436554 (Bingwa Mtaani)'; // Default payment info; admin can update
 const PORT = 3000;
 
