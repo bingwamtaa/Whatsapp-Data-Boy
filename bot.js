@@ -116,12 +116,12 @@ const dataPackages = {
   daily: [
     { id: 1, name: '1.25GB', price: 55, validity: 'Till midnight' },
     { id: 2, name: '1GB', price: 99, validity: '24 hours' },
-    { id: 3, name: '250MB', price: 20, validity: '24 hours' }
+    { id: 3, name: '250MB', price: 18, validity: '24 hours' }
   ],
   weekly: [
     { id: 1, name: '6GB', price: 700, validity: '7 days' },
     { id: 2, name: '2.5GB', price: 300, validity: '7 days' },
-    { id: 3, name: '350MB', price: 50, validity: '7 days' }
+    { id: 3, name: '350MB', price: 47, validity: '7 days' }
   ],
   monthly: [
     { id: 1, name: '1.2GB', price: 250, validity: '30 days' },
