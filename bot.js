@@ -615,14 +615,13 @@ Reply "0" or "00" for menus.`);
   // ---------- MAIN MENU NAVIGATION ----------
   if (lower === 'menu' || lower === 'start') {
     session[sender] = { step: 'main' };
-    const mainMenu = `🌟 *Welcome to FY'S ULTRA BOT!* 🌟
-Thank you for choosing FYS PROPERTY!
+    const mainMenu = `🌟 *Welcome to Bingwa Mtaani* 🌟
+Thank you for choosing Tobias Bingwa!
 
 Select an option:
 1️⃣ Airtime
 2️⃣ Data Bundles
-3️⃣ SMS Bundles
-4️⃣ My Referrals
+3️⃣ My Referrals
 
 For order status: status <ORDER_ID>
 After payment: PAID <ORDER_ID>
@@ -811,7 +810,7 @@ User: ${sender}
   }
 
   // ---------- OPTION 3: SMS Bundles ----------
-  if (session[sender]?.step === 'main' && text === '3') {
+  if (session[sender]?.step === 'main' && text === '300') {
     session[sender].prevStep = 'main';
     session[sender].step = 'smsCategory';
     return client.sendMessage(sender, `✉️ *SMS Bundles*\nChoose subcategory:
@@ -907,8 +906,8 @@ User: ${sender}
     return;
   }
 
-  // ---------- MY REFERRALS (Option 4) ----------
-  if (session[sender]?.step === 'main' && text === '4') {
+  // ---------- MY REFERRALS (Option 3) ----------
+  if (session[sender]?.step === 'main' && text === '3') {
     session[sender].prevStep = 'main';
     session[sender].step = 'myReferralsMenu';
     const refMenu = `🌟 *My Referrals Menu* 🌟
